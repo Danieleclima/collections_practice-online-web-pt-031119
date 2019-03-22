@@ -23,7 +23,7 @@ def sort_array_char_count (array)
   end
 end
 
-def swap_elements (array, index, destination_index)
+def swap_elements (array)
   array.collect do |a|
     array.index(a) == destination_index
   end
