@@ -47,6 +47,7 @@ def kesha_maker (array)
         letter = "$"
         binding.pry
         new_array << string
+        binding.pry
       end
     end
   end
