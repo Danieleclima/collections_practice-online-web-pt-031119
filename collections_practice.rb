@@ -41,6 +41,11 @@ def kesha_maker (array)
   new_array = []
   array.each do |string|
     string.each do |letter|
-      if string.index(letter) == 
-  
+      if string.index(letter) == 3
+        letter == "$"
+        new_array << string
+      end
+    end
+  end
+  return new_array
 end
