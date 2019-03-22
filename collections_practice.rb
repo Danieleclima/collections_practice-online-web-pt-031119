@@ -24,7 +24,5 @@ def sort_array_char_count (array)
 end
 
 def swap_elements (array)
-  array.collect do |a|
-    array.index(a) == destination_index
-  end
+ array[2]
 end
