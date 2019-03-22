@@ -43,11 +43,9 @@ def kesha_maker (array)
   array.each do |string|
     string.each_char do |letter|
       if string.index(letter) == 3
-        binding.pry
-        letter = "$"
-        binding.pry
+        stringletter = "$"
         new_array << string
-        binding.pry
+    
       end
     end
   end
