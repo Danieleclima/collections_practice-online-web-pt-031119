@@ -25,7 +25,6 @@ end
 
 def swap_elements (array, index, destination_index)
   array.collect do |a|
-    array.index
-    
-  
+    array.index(a) == destination_index
+  end
 end
