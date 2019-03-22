@@ -45,7 +45,6 @@ def kesha_maker (array)
       if string.index(letter) == 3
         stringletter = "$"
         new_array << string
-    
       end
     end
   end
