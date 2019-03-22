@@ -1,3 +1,4 @@
+require "pry"
 
 def sort_array_asc (array)
   array.sort do |a,b|
@@ -42,7 +43,9 @@ def kesha_maker (array)
   array.each do |string|
     string.each_char do |letter|
       if string.index(letter) == 3
+        binding.pry
         letter = "$"
+        binding.pry
         new_array << string
       end
     end
