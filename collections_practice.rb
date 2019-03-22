@@ -44,7 +44,7 @@ def kesha_maker (array)
     string.each_char do |letter|
       if string.index(letter) == 3
         string.delete letter
-        string.insert
+        string[3] =
         new_array << string
       end
     end
